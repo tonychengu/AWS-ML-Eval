@@ -7,6 +7,6 @@ We are interested in cat recognition because sometimes we cannot find our cats a
 Amazon Rekognition Image API is able to detect labels in pictures. A label is defined as an object, scene, action or concept in the image or video based on the content. The Amazon Rekognition Image applies a hierarchical taxonomy of ancestor labels to identify and classify labels. In our process of recognition experiment, we are going to identify the labels in the picture of Icy’s cat. The labels of the cat’s picture are categorized into three main categories: the part of the cat shown in the picture (Whole cat/ head/ body/ tail/ feet), the color of the cat (black/ gray/ orange), the background (chaotic/ plain).
 
 ## Structure
-![Structure img](./img/resources/structure.jpeg)
+![Structure img](./img/resources/structure.jpg)
 
 The notebook is tested to run under AWS Sagemaker using pytorch supported kernal with python version higher than 3.7.
